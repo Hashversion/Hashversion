@@ -1,0 +1,12 @@
+{
+  "extends": "@hashversion/typescript-config/reactjs.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@hashversion/design-system/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["dist", "build", "node_modules"]
+}

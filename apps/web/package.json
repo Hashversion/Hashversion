@@ -1,0 +1,31 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "check-types": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules .next",
+    "dev": "next dev --turbopack",
+    "lint": "next lint --max-warnings 0 --report-unused-disable-directives-severity warn",
+    "lint:fix": "next lint --fix",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hashversion/design-system": "workspace:*",
+    "@hashversion/security": "workspace:*",
+    "next": "^15.3.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@hashversion/eslint-config": "workspace:*",
+    "@hashversion/typescript-config": "workspace:*",
+    "@types/node": "^24.0.14",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  }
+}
