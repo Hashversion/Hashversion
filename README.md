@@ -1,6 +1,6 @@
 # who am i
 
-Product engineer from india. design-aware developer building simple, fast, and usable web apps. I care about the details, from interface to performance, and how everything comes together.
+product engineer from india building simple, fast, and usable web apps
 
 Portfolio: <br/>
 ↳ [hashversion.com](https://hashversion.com)
